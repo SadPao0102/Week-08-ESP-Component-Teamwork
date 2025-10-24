@@ -1,0 +1,36 @@
+dependencies:
+  Lab08-Display-Components:
+    component_hash: ea18427784375bb4180f539f62afda1266846b1403b615332d25230e9797a0b6
+    dependencies: []
+    source:
+      git: https://github.com/senashino/Lab08-Display-Components.git
+      path: .
+      type: git
+    version: 8041918299433a7e716d07c14059bf8c98f37cea
+  Lab08-LED-Components:
+    component_hash: 38763f2f662312e71ea80a2ac9c73a1f60cbd75e3f269eb917b76e6c77de3f8b
+    dependencies: []
+    source:
+      git: https://github.com/SadPao0102/Lab08-Led-Components.git
+      path: .
+      type: git
+    version: fb44b96d0a2dd6c02a5393dfb9f802f6ec326917
+  Lab08_Sensors_Components:
+    component_hash: 3d03a9aa09027a3fad598a600bab765980568a89a74353f7e6e73fd9da48280d
+    dependencies: []
+    source:
+      git: https://github.com/nongbluelnwza007/Week-08-ESP-Kantapat-Sensor.git
+      path: .
+      type: git
+    version: 9472fcf58303773409b0a8d59e4dd406b58f3f20
+  idf:
+    source:
+      type: idf
+    version: 6.0.0
+direct_dependencies:
+- Lab08-Display-Components
+- Lab08-LED-Components
+- Lab08_Sensors_Components
+manifest_hash: 7b9660575c7aacc9031c8399c29dc9debe9cd21d28d51ec3a2e511e074865532
+target: esp32
+version: 2.0.0
